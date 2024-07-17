@@ -15,7 +15,7 @@ import os
 
 ######################################### Class for the main application#########################################
 
-class StockWishlistApp:
+class Blaustocks:
 
     def __init__(self, root):
 
@@ -107,13 +107,10 @@ class StockWishlistApp:
 
         # Username entry    
         self.username_entry = tk.Entry(new_account_frame, width=30)
-        
         # Pack it at the left side
         self.username_entry.pack(side=tk.LEFT, padx=5, pady=5)
-
         # API Key label
         self.api_key_label = tk.Label(new_account_frame, text="API Key", fg="white", bg="#000000")
-
         # Pack it at the left side
         self.api_key_label.pack(side=tk.LEFT, padx=5, pady=5) 
         
@@ -124,38 +121,32 @@ class StockWishlistApp:
         self.api_key_entry.pack(side=tk.LEFT, padx=5, pady=5) 
 
         #`API Secret label
-        self.api_secret_label = tk.Label(new_account_frame, text="API Secret", fg="white", bg="#000000")
-
+        self.api_secret_label = tk.Label(new_account_frame, text="API Secret", fg="white", bg="#000000") 
         # Pack it at the left side
         self.api_secret_label.pack(side=tk.LEFT, padx=5, pady=5)
 
          # API Secret entry
         self.api_secret_entry = tk.Entry(new_account_frame, width=30)
-
         # Pack it at the left side
         self.api_secret_entry.pack(side=tk.LEFT, padx=5, pady=5)
 
         # Access Token label
-        self.access_token_label = tk.Label(new_account_frame, text="Access Token", fg="white", bg="#000000")
-
+        self.access_token_label = tk.Label(new_account_frame, text="Access Token", fg="white", bg="#000000") 
         # Pack it at the left side
         self.access_token_label.pack(side=tk.LEFT, padx=5, pady=5) 
 
         # Access Token entry
-        self.access_token_entry = tk.Entry(new_account_frame, width=30)
-
+        self.access_token_entry = tk.Entry(new_account_frame, width=30) 
         # Pack it at the left side
         self.access_token_entry.pack(side=tk.LEFT, padx=5, pady=5) 
 
         # Add Account button
-        self.add_account_button = tk.Button(new_account_frame, text="Add New Account", command=self.add_new_account)
-
+        self.add_account_button = tk.Button(new_account_frame, text="Add New Account", command=self.add_new_account) 
         # Pack it at the left side
         self.add_account_button.pack(side=tk.LEFT, padx=5, pady=10) 
 
         # Button to change access token
         self.change_access_token_button = tk.Button(new_account_frame, text="Change Access Token", command=self.change_access_token)
-
         # Pack it at the left side
         self.change_access_token_button.pack(side=tk.LEFT, padx=5, pady=10) 
 
@@ -771,5 +762,5 @@ class StockWishlistApp:
 
 if __name__ == "__main__":                                      
     root = tk.Tk()                      
-    app = StockWishlistApp(root)
+    app = Blaustocks(root)
     root.mainloop()                                                         # Run the main application
