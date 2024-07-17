@@ -36,16 +36,16 @@ Run the application using:
 ```python Blaustocks.py```
 
 ## User Interface Components
-`
+```
 Account Management:Input fields for username, API Key, API Secret, and Access Token.
 Buttons to add a new account or change the access token.
 Search Bar: For searching stocks to add to the wishlist.
 Wishlist Tabs: Up to 10 separate tabs for managing different wishlists. Each tab displays a list of stocks and their latest prices.
 Buy/Sell Frame: Entry for quantity and buttons to execute buy/sell orders.
-`
+```
 ## API Integration
 The application uses the Kite Connect API for:
-
+```
 Fetching stock prices.
 Executing buy/sell orders.
 Managing user accounts and credentials.
@@ -60,7 +60,7 @@ sell_stock(): Places a sell order for the selected stock.
 update_stock_prices_thread(): Fetches real-time stock prices in a separate thread.
 save_credentials_list(): Saves user credentials to a JSON file.
 load_credentials_list(): Loads user credentials from a JSON file.
-
+```
 ## Error Handling
 The application includes error handling for API requests and user inputs to provide feedback via message boxes.
 
