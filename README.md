@@ -28,7 +28,12 @@ JSON for data storage
 Ensure Python 3 is installed on your system.
 Install the required packages:
 
-```pip install pillow requests kiteconnect```
+```
+pip install pillow
+pip install requests
+pip install requests
+
+```
 
 Getting Started
 Clone or download the repository containing the Blaustocks.py file.
