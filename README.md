@@ -33,7 +33,7 @@ Install the required packages:
 Getting Started
 Clone or download the repository containing the StockWishlistApp.py file.
 Run the application using:
-```python StockWishlistApp.py```
+```python Blaustocks.py```
 
 ## User Interface Components
 
