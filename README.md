@@ -2,7 +2,7 @@
 
 ## Overview
 
-The Stock Wishlist App allows users to manage a wishlist of stocks, view real-time stock prices, and execute buy/sell orders using the Kite Connect API. Users can manage multiple accounts and securely store their 
+The Blaustocks App allows users to manage a wishlist of stocks, view real-time stock prices, and execute buy/sell orders using the Kite Connect API. Users can manage multiple accounts and securely store their 
 
 ## credentials.
 
@@ -10,7 +10,7 @@ The Stock Wishlist App allows users to manage a wishlist of stocks, view real-ti
 
 Multiple Account Management: Add and manage multiple trading accounts.
 Real-time Stock Prices: Automatically fetch and display current stock prices.
-Stock Wishlist: Maintain multiple wishlists for different stocks.
+Blaustocks: Maintain multiple wishlists for different stocks.
 Buy/Sell Functionality: Execute buy and sell orders on selected stocks.
 User-friendly Interface: Built with Tkinter for an intuitive GUI experience.
 
