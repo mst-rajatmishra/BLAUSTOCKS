@@ -31,7 +31,7 @@ Install the required packages:
 ```pip install pillow requests kiteconnect```
 
 Getting Started
-Clone or download the repository containing the StockWishlistApp.py file.
+Clone or download the repository containing the Blaustocks.py file.
 Run the application using:
 ```python Blaustocks.py```
 
