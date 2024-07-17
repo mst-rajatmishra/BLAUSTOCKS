@@ -33,6 +33,7 @@ Install the required packages:
 Getting Started
 Clone or download the repository containing the Blaustocks.py file.
 Run the application using:
+
 ```python Blaustocks.py```
 
 ## User Interface Components
