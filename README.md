@@ -29,6 +29,7 @@ Ensure Python 3.x is installed on your system.
 Install the required packages:
 
 ```pip install pillow requests kiteconnect```
+
 Getting Started
 Clone or download the repository containing the StockWishlistApp.py file.
 Run the application using:
