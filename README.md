@@ -15,17 +15,17 @@ Buy/Sell Functionality: Execute buy and sell orders on selected stocks.
 User-friendly Interface: Built with Tkinter for an intuitive GUI experience.
 
 ## Requirements
-
-Python 3.x
+```
+Python 3
 tkinter
 PIL (Pillow)
 requests
 kiteconnect (Kite Connect API)
 JSON for data storage
-
+```
 ## Installation
 
-Ensure Python 3.x is installed on your system.
+Ensure Python 3 is installed on your system.
 Install the required packages:
 
 ```pip install pillow requests kiteconnect```
