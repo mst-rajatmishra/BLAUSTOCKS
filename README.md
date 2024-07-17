@@ -1,4 +1,4 @@
-# Blaustocks
+# **Blaustocks**
 
 ## Overview
 
@@ -6,7 +6,7 @@ The Stock Wishlist App allows users to manage a wishlist of stocks, view real-ti
 
 ## credentials.
 
-## Features
+### Features
 
 Multiple Account Management: Add and manage multiple trading accounts.
 Real-time Stock Prices: Automatically fetch and display current stock prices.
